@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us Form</title>
+	<link rel="stylesheet" type="text/css" href="formm.css">
+	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<div class="container" id="container">
+		<div class="form-container sign-up-container">
+			<form action="#">
+				<h1>Create Account</h1>
+				<div class="social-container">
+					<a href="#" class="social"><i class='bx bxl-facebook'></i></a>
+					<a href="#" class="social"><i class='bx bxl-instagram' ></i></a>
+					<a href="#" class="social"><i class='bx bxl-linkedin' ></i></i></a>
+				</div>
+				<span>or use your emial for registration</span>
+				<input type="text" placeholder ="Full Name"  required="required" />
+				<input type="email" placeholder= "Email" required="required" />
+				<input type="password"  placeholder="Password" required="required">
+				<button>Sign Up</button>
+			</form>
+		</div>
+		<div class="form-container sign-in-container">
+			<form action="#">
+				<h1>Sign in</h1>
+				<div class="social-container">
+					<a href="#" class="social"><i class='bx bxl-facebook'></i></a>
+					<a href="#" class="social"><i class='bx bxl-instagram' ></i></a>
+					<a href="#" class="social"><i class='bx bxl-linkedin' ></i></i></a>
+				</div>
+				<span>or use your password?</span>
+				<input type="email" placeholder="Email" required="required" />
+				<input type="password" placeholder="Password" required="required" />
+				<a href="#">Forgot your password?</a>
+				<button>Sign In</button>
+			</form>
+		</div>
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-left">
+					<h1>Welcome Back!</h1>
+					<p>
+						To keep connected with us please login with your personal info.
+					</p>
+					<button class="ghost" id="signIn">Sign In</button>
+				</div>
+				<div class="overlay-panel overlay-right">
+					<h1>Hello, Friend!</h1>
+					<p>Enter your persinal details and start journey with us.</p>
+					<button class="ghost" id="signUp">Sign Up</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
